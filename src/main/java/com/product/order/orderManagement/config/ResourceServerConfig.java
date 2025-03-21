@@ -33,5 +33,7 @@ public class ResourceServerConfig {
 		String jwkSetURL = "http://localhost:8083/.well-known/jwks.json";
 		return NimbusJwtDecoder.withJwkSetUri(jwkSetURL).build();
 	}
+	
+	
 
 }
